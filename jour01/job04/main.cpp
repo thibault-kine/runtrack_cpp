@@ -5,7 +5,7 @@ int main() {
     int num;
     std::cin >> num;
 
-    num % 2 == 0 ?
-        std::cout << num << " est pair" << std::endl
+    num % 2 == 0 
+    ?   std::cout << num << " est pair" << std::endl
     :   std::cout << num << " est impair" << std::endl;
 }
